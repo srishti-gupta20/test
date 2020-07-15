@@ -17,16 +17,7 @@ spec:
     spec:
       containers: 
         - name: myweb-con
-          image: srishtigupta20/php-image-from-jenkins:new
-
-          volumeMounts:
-          - name: task4-web-vol1
-            mountPath: /var/www/html/
-
-      volumes:
-      - name: task4-web-vol1
-        persistentVolumeClaim:
-          claimName: task4-web-pvc
+          image: srishtigupta20/php-image-from-jenkins:latest
 
 
 
