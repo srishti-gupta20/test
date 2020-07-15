@@ -17,7 +17,8 @@ spec:
     spec:
       containers: 
         - name: myweb-con
-          image: vimal13/apache-webserver-php
+          image: srishtigupta20/php-image-from-jenkins:latest
+
           volumeMounts:
           - name: task4-web-vol1
             mountPath: /var/www/html/
