@@ -17,7 +17,7 @@ spec:
     spec:
       containers: 
         - name: myweb-con
-          image: srishtigupta20/php-image-from-jenkins:latest
+          image: srishtigupta20/php-image-from-jenkins:new
 
           volumeMounts:
           - name: task4-web-vol1
