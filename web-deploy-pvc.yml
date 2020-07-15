@@ -6,7 +6,7 @@ metadata:
     name: task4webpvc
 spec:
   accessModes:
-   - ReadWriteOnce
+   - ReadWriteMany
   resources:
     requests:
       storage: 2Gi
